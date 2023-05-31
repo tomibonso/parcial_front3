@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({cumple}) => {
   return (
-    <div>Hola, soy una tarjeta</div>
+    <div className='estiloCard'>
+      <h2>Hola, soy una tarjeta</h2>
+      <h2>Te invitaron al cumple de {cumple.nombre}</h2>
+      <h3>El dia: {cumple.dia}</h3>
+    </div>
   )
 }
 
