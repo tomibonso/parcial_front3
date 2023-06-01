@@ -7,10 +7,20 @@
 }
 
 .estiloCard{
-  width: 650px;
+  width: 450px;
   height: 250px;
   background-color: blueviolet;
   display: flex;
   flex-direction: column;
   border: 7px solid blue;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.estiloForm{
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid gray;
 }
